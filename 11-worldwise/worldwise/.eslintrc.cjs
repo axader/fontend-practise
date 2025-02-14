@@ -17,4 +17,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  rules: {
+    "no-unused-vars": "off", // 关闭未使用变量的校验
+    "react/prop-types": "off",
+  },
 };
